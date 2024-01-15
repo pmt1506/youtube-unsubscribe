@@ -8,17 +8,27 @@ This JavaScript file provides a script to automate the process of unsubscribing 
    - Ensure you are logged in to your YouTube account.
    - Open the YouTube Subscription page (https://www.youtube.com/feed/channels) in your web browser.
 
-2. **Script Execution:**
+2. **Loading and Scrolling:**
+   - After opening the YouTube Subscription page, wait for it to fully load.
+   - Scroll down to the bottom of the page to ensure all subscribed channels are loaded.
+   - Wait for 1-2 minutes to allow the page to stabilize.
+
+3. **Script Execution:**
    - Open the browser's developer console.
    - Copy and paste the entire content of the `youtube-unsubscribe.js` file into the console.
    - Press `Enter` to execute the script.
 
-3. **Automation Process:**
+4. **Automation Process:**
    - The script iterates through each subscribed channel.
    - It simulates the necessary clicks to unsubscribe from each channel.
-   - The process continues until all subscribed channels are unsubscribed.
+   - If the page becomes laggy or unresponsive, consider reloading the page and running the script again.
 
-4. **Note:**
+5. **Reloading the Page:**
+   - If the script encounters issues due to page responsiveness:
+     - Manually reload the YouTube Subscription page.
+     - Repeat the script execution steps mentioned in Step 3.
+
+6. **Note:**
    - This script assumes a constant subscription status for demonstration purposes.
    - Adjustments may be needed based on changes to the YouTube webpage structure.
 
